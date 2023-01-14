@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class NestedLoop {
 
     void bubblesort(int array[]){
@@ -24,25 +25,25 @@ public class NestedLoop {
         }
     }
 
-     public static void main(String args[]){
+    public static void main(String args[]){
 
-         Scanner sc = new Scanner(System.in);
-         System.out.println("Enter size of array: ");
-         int size = sc.nextInt();
-         int array[] = new int[size];
-         int input;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of array: ");
+        int size = sc.nextInt();
+        int array[] = new int[size];
+        int input;
 
-         for (int i=0; i< array.length; i++){
-             System.out.println("Enter numbers: ");
-             input = sc.nextInt();
-             array[i] = input;
+        for (int i=0; i< array.length; i++){
+            System.out.println("Enter numbers: ");
+            input = sc.nextInt();
+            array[i] = input;
 
-         }
+        }
 
 
         NestedLoop ob = new NestedLoop();
         ob.bubblesort(array);
-     }
+    }
 
 
 }
